@@ -16,14 +16,15 @@ var createScene2 = function (scene) {
     let camera = new BABYLON.UniversalCamera("Camera", cameraStartPosition, scene);
     camera.attachControl(canvas, true);
     camera.speed = 10;
+    camera.angularSpeed = 100;
 
     camera.keysUp = [38, 87];
     camera.keysDown = [40, 83];
     camera.keysLeft = [37, 65];
     camera.keysRight = [39, 68];
 
-    camera.keysUpward = [16];
-    camera.keysDownward = [32];
+    camera.keysUpward = [32];
+    camera.keysDownward = [16];
     camera.keysRotateLeft = [81];
     camera.keysRotateRight = [69];
 

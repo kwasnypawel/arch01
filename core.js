@@ -27,7 +27,7 @@ let importModel = function (path, name, scene, parent, sizeY, posX, posY, posZ) 
 
         for (let i = 0; i < meshes.length; i++) {
             mesh.rotation = new BABYLON.Vector3.Zero();
-            meshes[i].showBoundingBox = true;
+            // meshes[i].showBoundingBox = true;
             log(meshes[i].id);
             // log(meshes[i].getBoundingInfo());
         }
@@ -102,7 +102,7 @@ let importModel = function (path, name, scene, parent, sizeY, posX, posY, posZ) 
 }
 
 var optimizeMesh = function (meshes) {
-    const quality = 0.5;
+    const quality = 0.2;
     if (typeof meshes === 'object') {
         let meshesO = meshes;
         meshes = [];

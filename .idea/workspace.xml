@@ -4,7 +4,11 @@
     <list default="true" id="0483c839-9350-419d-b782-f8f2108aa7d6" name="Changes" comment="quality5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/core.js" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/exampleSceneries.js" beforeDir="false" afterPath="$PROJECT_DIR$/exampleSceneries.js" afterDir="false" />
+>>>>>>> origin/main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,11 @@
       <option name="presentableId" value="Default" />
       <updated>1639588627020</updated>
       <workItem from="1639588628705" duration="5572000" />
+<<<<<<< HEAD
       <workItem from="1639599133190" duration="3266000" />
+=======
+      <workItem from="1639599133190" duration="1492000" />
+>>>>>>> origin/main
     </task>
     <task id="LOCAL-00001" summary="js path">
       <created>1639589523753</created>
@@ -84,6 +92,7 @@
       <option name="project" value="LOCAL" />
       <updated>1639593364181</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00006" summary="quality5">
       <created>1639600638867</created>
       <option name="number" value="00006" />
@@ -99,6 +108,9 @@
       <updated>1639601474988</updated>
     </task>
     <option name="localTasksCounter" value="8" />
+=======
+    <option name="localTasksCounter" value="6" />
+>>>>>>> origin/main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,8 +133,12 @@
     <MESSAGE value="nojekyll2" />
     <MESSAGE value="shift&lt;&gt;space ; mouse speed" />
     <MESSAGE value="quality" />
+<<<<<<< HEAD
     <MESSAGE value="quality7" />
     <MESSAGE value="quality5" />
     <option name="LAST_COMMIT_MESSAGE" value="quality5" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="quality" />
+>>>>>>> origin/main
   </component>
 </project>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <title>Babylon.js sample code</title>
+
+    <script src="node_modules/babylonjs/babylon.max.js"></script>
+    <script src="node_modules/babylonjs-loaders/babylonjs.loaders.js"></script>
+
+    <!-- links to the latest version of the serializers -->
+    <script src="node_modules/babylonjs-serializers/babylonjs.serializers.js"></script>
+
+    <script src="node_modules/pepjs/dist/pep.js"></script>
+    <!--    <script src="node_modules/three/build/three.js"></script>-->
+    <!--    <script src="node_modules/three/build/three.module.js"></script>-->
+
+    <script src="core.js"></script>
+    <script src="myInputManager.js"></script>
+    <script src="exampleSceneries.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="log" style="position: absolute; color: grey;"></div>
+<canvas id="renderCanvas"></canvas>
+
+<script>
+
+    var log = function (txt) {
+        document.getElementById("log").innerHTML =  Date.now() + ' ' +  JSON.stringify(txt) + '<br />' + document.getElementById("log").innerHTML;
+    }
+    log('no to go!');
+
+    var canvas = document.getElementById("renderCanvas");
+    var engine = null;
+    var createDefaultEngine = function () {
+        return new BABYLON.Engine(canvas, true, {
+            preserveDrawingBuffer: true,
+            stencil: true,
+            disableWebGL2Support: false
+        });
+    };
+
+    var scene = null;
+    var sceneToRender = null;
+
+
+    window.initFunction = async function () {
+        var asyncEngineCreation = async function () {
+            try {
+                return createDefaultEngine();
+            } catch (e) {
+                console.log("the available createEngine function failed. Creating the default engine instead");
+                return createDefaultEngine();
+            }
+        }
+
+        window.engine = await asyncEngineCreation();
+        if (!engine) throw 'engine should not be null.';
+        // window.scene = delayCreateScene();
+        window.scene = createScene();
+    };
+
+    initFunction().then(() => {
+        sceneToRender = scene
+        engine.runRenderLoop(function () {
+            if (sceneToRender && sceneToRender.activeCamera) {
+                sceneToRender.render();
+            }
+        });
+    });
+
+    window.addEventListener("resize", function () {
+        engine.resize();
+    });
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "nodetest01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babylonjs": "^4.2.0",
+    "babylonjs-loaders": "^4.2.0",
+    "babylonjs-serializers": "^4.2.0",
+    "pepjs": "^0.5.3",
+    "three": "^0.135.0"
+  }
+}

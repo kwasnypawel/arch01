@@ -30,6 +30,10 @@ var createScene2 = function (scene) {
 
     chloeWithFurnitureOnGroundScene(scene);
 
+    setTimeout(function(){
+        log(scene.meshes.length + (typeof scene.meshes));
+        optimizeMesh(scene.meshes);
+    },2000);
 
     // // złącz meshes i zapisz
     // let meshes = scene.meshes;
@@ -39,9 +43,12 @@ var createScene2 = function (scene) {
     //     glb.downloadFiles();
     // });
 
-    // BABYLON.GLTF2Export.GLBAsync(scene, "fileName").then((glb) => {
-    //     glb.downloadFiles();
-    // });
+
+    setTimeout(function(){
+        BABYLON.GLTF2Export.GLBAsync(scene, "fileName").then((glb) => {
+            glb.downloadFiles();
+        });
+    },100000);
 
     return scene;
 };

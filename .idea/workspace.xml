@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0483c839-9350-419d-b782-f8f2108aa7d6" name="Changes" comment="">
+    <list default="true" id="0483c839-9350-419d-b782-f8f2108aa7d6" name="Changes" comment="quality5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639588627020</updated>
-      <workItem from="1639588628705" duration="3612000" />
+      <workItem from="1639588628705" duration="5572000" />
+      <workItem from="1639599133190" duration="3266000" />
     </task>
     <task id="LOCAL-00001" summary="js path">
       <created>1639589523753</created>
@@ -75,7 +77,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639591463099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="quality">
+      <created>1639593364181</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639593364181</updated>
+    </task>
+    <task id="LOCAL-00006" summary="quality5">
+      <created>1639600638867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639600638867</updated>
+    </task>
+    <task id="LOCAL-00007" summary="quality5">
+      <created>1639601474988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639601474988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +120,9 @@
     <MESSAGE value="nojekyll" />
     <MESSAGE value="nojekyll2" />
     <MESSAGE value="shift&lt;&gt;space ; mouse speed" />
-    <option name="LAST_COMMIT_MESSAGE" value="shift&lt;&gt;space ; mouse speed" />
+    <MESSAGE value="quality" />
+    <MESSAGE value="quality7" />
+    <MESSAGE value="quality5" />
+    <option name="LAST_COMMIT_MESSAGE" value="quality5" />
   </component>
 </project>

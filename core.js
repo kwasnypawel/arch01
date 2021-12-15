@@ -102,7 +102,11 @@ let importModel = function (path, name, scene, parent, sizeY, posX, posY, posZ) 
 }
 
 var optimizeMesh = function (meshes) {
+<<<<<<< HEAD
 
+=======
+    const quality = 0.2;
+>>>>>>> origin/main
     if (typeof meshes === 'object') {
         let meshesO = meshes;
         meshes = [];
